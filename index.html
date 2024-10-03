@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eternals!!!</title>
+    <script src="Eternals.js" defer></script>
+    <link rel="stylesheet" href="Eternals.css">   
+</head>
+<body>
+    <img class="HeaderEternals" alt="Eternal" src="Pics\\Eternals.png" />
+    <div class="wrapper"></div>
+        <p class="EternalInfo"></p>
+        <div class="EternalList"></div>
+
+        <div class="selectEternal">
+            <label for="EternalNum">Eternal Number:</label>
+            <input type="text" id="EternalNum" name="EternalNum" maxlength="4" size="4"></input>
+            <button onclick="showInfo()">Click for information!</button>
+            <p class="selectedEternalInfo"></p>
+            <img class="selectedEternalPic" alt="Eternal" />
+        </div>
+
+        <div class="EternalSkillsList"></div>
+        <div class="selectSkill">
+            <label for="ETSkill">Wanted Skill: </label>
+            <input type="text" id="ETSkill" name="ETSkill"  size="8"></input>
+            <button onclick="findSkills()">Click Skill holders!</button>
+            <p class="selectedETSkill"></p>
+            <div class="image-container"></div>
+        </div>
+    </div>
+
+<p class = "selectedEternalInfo"></p>
+
+</body>
+</html>

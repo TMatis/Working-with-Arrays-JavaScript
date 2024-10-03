@@ -1,0 +1,30 @@
+.selectedEternalPic {
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderEternals {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 300%;
+}
+
+.image-container {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 300px; /* Adjust this if needed */
+    margin: 10px;
+}
